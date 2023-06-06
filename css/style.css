@@ -213,7 +213,7 @@ left: -20px;
 }
 .Services-col-2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 .team img {
@@ -231,4 +231,17 @@ left: -20px;
 .team p {
     color: #ffffff6b;
     
+}
+.col-container {
+    width: 600px;
+    margin: 0 auto;
+}
+.col-Services-heading {
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+.col-Services-heading h2 {
+ font-size: 23px;
+ padding-bottom: 10px;
 }
