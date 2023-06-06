@@ -10,8 +10,9 @@ body {
 }
 
 .container {
-    width: 1290px;
+    width: 1440px;
     margin: 0 auto;
+
 }
 
 /* header section */
@@ -20,12 +21,14 @@ header {
     background-color: #181C31;
     width: 100%;
     padding-top: 20px;
+    height: 700px;
 }
 
 .header-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo {
@@ -48,9 +51,9 @@ header {
 }
 
 .nav {
-    width: 150%;
+    width: 80%;
     z-index: 1;
-    margin-right: 100px;
+    padding-right: 80px;
 }
 
 .menu{
@@ -66,7 +69,7 @@ header {
 
 .menu li a {
     color: #ffffff77;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -81,7 +84,7 @@ header {
 .sign-in-btn a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .sign-in-btn button {
@@ -101,15 +104,15 @@ header {
     position: relative;
 }
 .banner-text {
-    width: 50%;
+    width: 45%;
     margin-top: 100px;
 }
 .banner-text h2  {
-    font-size: 20px;
-    padding-bottom: 10px;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 .banner-text p {
-    font-size: 14px;
+    font-size: 20px;
     color: #ffffff6b;
     padding-bottom: 30px;
 }
@@ -137,21 +140,23 @@ header {
 }
 .banner-btn button a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
 }
 .banner-btn p {
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
 }
 .banner-btn p span {
     color: #ffffff6b;
+    font-size: 20px;
 }
 .banner-img img {
-    height: 600px;
+    height: 700px;
     position: absolute;
-    top: -200px;
+    top: -180px;
     bottom: 0;
-    right: -200px;
+    right: -80px;
+    overflow: hidden;
     
 }
