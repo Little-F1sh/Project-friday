@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 1280px;
+    width: 1440px;
     margin: 0 auto;
 
 }
@@ -160,9 +160,93 @@ header {
     overflow: hidden;
     
 }
+/* features */
+#Features {
+    background-color: #181C31;
+    width: 100%;
+    height: 900px;
+}
+.features-col-1 {
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 70px;
+}
+.Support {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    align-items: center;
+}
+.Support a {
+    padding: 30px 30px;
+    border-radius: 50%;
+    background: lightpink;
+}
+.Support a i {
+    color: #fff;
+    font-size: 20px;
+}
+.Support h2 {
+    font-size: 23px;
+    padding-bottom: 10px;
+    color: white;
+}
+.Support p {
+    font-size: 20px;
+    color: #ffffff6b;
+}
+.Take-Ownership {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    align-items: center;
+}
+.Take-Ownership a {
+    padding: 30px 30px;
+    border-radius: 50%;
+    background: lightgreen;
+}
+.Take-Ownership a i {
+    color: #fff;
+    font-size: 20px;
+}
+.Take-Ownership h2 {
+    font-size: 23px;
+    color: white;
+    padding-bottom: 10px;
+}
+.Take-Ownership p {
+    font-size: 20px;
+    color: #ffffff6b;
+}
+.Team-work {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    align-items: center;
+}
+.Team-work a {
+    padding: 30px 30px;
+    border-radius: 50%;
+    background: orange;
+}
+.Team-work a i {
+    color: #fff;
+    font-size: 20px;
+    width: 20px;
+}
+.Team-work h2 {
+    font-size: 23px;
+    color: white;
+    padding-bottom: 10px;
+}
+.Team-work p {
+    font-size: 20px;
+    color: #ffffff6b;
+}
+
+
 .features-col-2 {
     display: grid;
     grid-template-columns: 50% 50%;
+    padding-bottom: 60px;
 
 }
 .col-2-text {
@@ -244,7 +328,4 @@ left: -20px;
 .col-Services-heading h2 {
  font-size: 23px;
  padding-bottom: 10px;
-}
-.col-card {
-    
 }
