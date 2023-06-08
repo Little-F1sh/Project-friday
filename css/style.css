@@ -350,6 +350,11 @@ left: -20px;
     font-size: 18px;
     color:#ffffff6b;
 }
-.pricing {
-    background-image: url(../img/shape-12.png)
+#pricing {
+    background: #181C31;
+    width: 100%;
+    padding-top: 30px;
+}
+#pricing img {
+    padding-bottom: 30px;
 }
