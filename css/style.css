@@ -354,7 +354,52 @@ left: -20px;
     background: #181C31;
     width: 100%;
     padding-top: 30px;
+    height: 1000px;
 }
 #pricing img {
     padding-bottom: 30px;
+}
+.price-title {
+    text-align: center;
+    color: #fff;
+}
+.price-title h3 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.price-title p {
+    font-size: 16px;
+    color: #ffffff6b;
+}
+.bill {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.bill-div {
+    position: relative;
+}
+.bill h5 {
+    padding: 0 20px;
+    font-size: 16px;
+}
+.bill button {
+    border: none;
+    background: #181C31;
+}
+.bill button i {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.bill-noodles {
+    position: absolute;
+    right: 0px;
+    left: 850px;
+    bottom: -30px;
+
 }
