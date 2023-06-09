@@ -351,10 +351,10 @@ left: -20px;
     color:#ffffff6b;
 }
 #pricing {
-    background: #181C31;
+    background:#111c52;
     width: 100%;
     padding-top: 30px;
-    height: 1000px;
+    height: 900px;
 }
 #pricing img {
     padding-bottom: 30px;
@@ -402,4 +402,48 @@ left: -20px;
     left: 850px;
     bottom: -30px;
 
+}
+.price-card {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    position: relative;
+}
+.price-list {
+    border: none;
+    padding: 80px 110px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    background: #181C31;
+    z-index:1;
+
+}
+.price-list button {
+    padding: 8px 15px;
+    background: lightblue;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    border: transparent;
+    
+}
+.price-list h3 {
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.price-list h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.price-list h2 span {
+    font-size: 16px;
+}
+.price-list p {
+    padding-bottom: 16px;
+}
+.shape-07 {
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+    left: 85%;
 }
