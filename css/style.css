@@ -354,7 +354,7 @@ left: -20px;
     background:#111c52;
     width: 100%;
     padding-top: 30px;
-    height: 900px;
+    height: 850px;
 }
 #pricing img {
     padding-bottom: 30px;
@@ -446,4 +446,64 @@ left: -20px;
     bottom: -45px;
     right: 0;
     left: 85%;
+}
+#more-price {
+    background: #181C31;
+    height: 1200px;
+    width: 100%;
+}
+.more-price {
+    text-align: center;
+}
+.more-price h2 {
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.more-price p {
+    color: #ffffff6b;
+    padding-bottom: 10px;
+}
+.price-nav {
+    color: #fff;
+    margin: 0 auto;
+    width: 900px;
+    margin-top: 50px;
+}
+.price-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    background: #ffffff1f;
+    padding: 15px 110px;
+    border-radius: 50px;
+
+}
+.price-nav ul li a {
+    text-decoration: none;
+    color: #ffffff6b;
+}
+.price-blog {
+    width: 1000px !important;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 50px;
+
+}
+.price-blog-img {
+    width: 300px;
+    height: 200px;
+
+
+
+}
+.price-blog-img img {
+    width: 300px;
+    height: 200px;
+    margin: 20px 0px;
+    border-radius: 10px;
 }
