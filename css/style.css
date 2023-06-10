@@ -567,7 +567,7 @@ left: -20px;
 /* blog */
 #blog {
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     background: #181C31;
 }
 .blog-background {
@@ -576,10 +576,26 @@ left: -20px;
     background-color: #2c2d474d;
 
 }
+.blog-img 
 .blog-head {
     display: flex;
     flex-direction: column;
     position: relative;
+}
+.blog-head-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.blog-head-img img {
+    height: 60px;
+    margin-top: 20px;
+}
+#img-b1 {
+    padding-left: 300px;
+}
+#img-b2 {
+    padding-left: 600px;
 }
 .blog-nav ul {
     display: flex;
@@ -587,14 +603,79 @@ left: -20px;
     justify-content: space-evenly;
     list-style: none;
     text-align: center;
+    margin-top: 60px;
 }
 .blog-nav ul li {
     color: #fff;
+    
 }
 .shape-9 {
-    height: 50px;
+    height: 60px;
     position: absolute;
-    top: 200%;
+    top: 120%;
     left: 0;
     right: 0;
+}
+.blog-logo-text {
+    text-align: center;
+    color: #ffffff6b;
+    margin-top: 100px;
+}
+.blog-logo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 50px;
+}
+.blog-header {
+    text-align: center;
+    margin-top: 100px;
+}
+.blog-header h2 {
+    color: #fff;
+    font-size: 30px;
+}
+.blog-header p {
+    font-size: 20px;
+    color: #ffffff6b;
+    padding-top: 30px;
+}
+.blog-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.blog-img-text {
+    padding: 10px;
+    background:#111c527c;
+    border-radius: 10px;
+}
+.blog-img-text p {
+    color: #fff;
+    padding-top: 20px;
+}
+.blog-img-text img {
+    padding-top: 20px;
+}
+.blog-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff6b;
+}
+.bcon {
+    display: grid;
+    grid-template-columns: 20% 90%;
+}
+.bcon p {
+    font-size: 16px;
+}
+.ndate {
+    display: grid;
+    grid-template-columns: 20% 90%;
+}
+.ndate p {
+    font-size: 16px;
 }
