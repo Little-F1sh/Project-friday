@@ -156,7 +156,7 @@ header {
     position: absolute;
     top: -180px;
     bottom: 0;
-    right: -80px;
+    right: -30px;
     overflow: hidden;
     
 }
@@ -449,7 +449,7 @@ left: -20px;
 }
 #more-price {
     background: #181C31;
-    height: 1200px;
+    height: 1500px;
     width: 100%;
 }
 .more-price {
@@ -506,4 +506,23 @@ left: -20px;
     height: 200px;
     margin: 20px 0px;
     border-radius: 10px;
+}
+.price-fotter-container {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.price-footer {
+    text-align: center;
+    color: #ffffff6b;
+    position: absolute;
+    margin-top: 650px;
+} 
+.project-manager {
+    padding: 50px 20px;
+    border: 1px solid white;
+}
+.blue {
+
 }
