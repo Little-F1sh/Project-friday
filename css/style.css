@@ -348,10 +348,10 @@ left: -20px;
 }
 .Service-box p {
     font-size: 18px;
-    color:#ffffff6b;
+    color:#ffffff36;
 }
 #pricing {
-    background:#111c52;
+    background:#1b2141;
     width: 100%;
     padding-top: 30px;
     height: 850px;
@@ -563,4 +563,38 @@ left: -20px;
     top: 49%;
     right: 0;
     bottom: 0;
+}
+/* blog */
+#blog {
+    width: 100%;
+    height: 1000px;
+    background: #181C31;
+}
+.blog-background {
+    background-image: url(../img/shape-16.png);
+    height: 300px;
+    background-color: #2c2d474d;
+
+}
+.blog-head {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.blog-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+}
+.blog-nav ul li {
+    color: #fff;
+}
+.shape-9 {
+    height: 50px;
+    position: absolute;
+    top: 200%;
+    left: 0;
+    right: 0;
 }
