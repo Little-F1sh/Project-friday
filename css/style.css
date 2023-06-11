@@ -679,3 +679,55 @@ left: -20px;
 .ndate p {
     font-size: 16px;
 }
+/* Contact Section */
+#contact {
+    background-color: #181C31; 
+    width: 100%;
+    height: 2000px;
+}
+.connected {
+    display: flex;
+    flex-direction: column;
+    background-color: #1b214198;
+    background-image: url(../img/shape-12.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    
+}
+.down {
+    position: absolute;
+    top: 250px;
+    bottom: 0;
+    left: 85%;
+    right: 0;
+
+}
+.Connected-text {
+    text-align: center;
+    margin-top: 5%;
+}
+.Connected-text h2 {
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.Connected-text p {
+    font-size: 16px;
+    color: #ffffff6b;
+}
+#form {
+display: flex;
+justify-content: space-evenly;
+margin-top: 100px;
+color: #fff;
+}
+.contact-support {
+    padding: 10px 10px;
+    border: 1px solid white;
+    width: 25%;
+}
+.contact-form {
+    width: 65%;
+    border: 1px solid rgba(255, 246, 246, 0.842);
+}
