@@ -693,6 +693,7 @@ left: -20px;
     background-repeat: no-repeat;
     background-size: contain;
     height: 800px;
+    position: relative;
     
 }
 .down {
@@ -726,6 +727,38 @@ color: #fff;
     padding: 10px 10px;
     border: 1px solid white;
     width: 25%;
+    position: relative;
+    border-radius: 20px;
+    background-color: #111c52;
+    height: 400px;
+}
+.ctop{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    left: 270px;
+    height: 25px;
+    width: 25px;
+}
+.contact-support ul {
+    list-style: none;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+hr {
+    margin: 20px 0;
+
+}
+.cbottom {
+    position: absolute;
+    bottom: 5%;
+    left: 270px;
+    right: 0;
+    height: 30px ;
+    width: 30px;
 }
 .contact-form {
     width: 65%;
