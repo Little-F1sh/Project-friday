@@ -253,7 +253,7 @@ header {
     padding-top: 150px;
 }
 .col-2-text h5 {
-    color: #111c52;
+    color: #405ce7;
     font-size: 20px;
     padding-bottom: 20px;
 }
@@ -293,15 +293,46 @@ left: -20px;
 #Services {
     background: #181C31;
     width: 100%;
-    height: 1100px;
+    height: 1500px;
+}
+.s-back {
+    background: #22273d;
+}
+.service-header {
+    background-image: url(../img/shape-08.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.s-header h2{
+    font-size: 35px;
+    color: #fff;
+}
+.s-header p {
+    color: #ffffff6b;
+    padding-top: 10px;
+}
+.shape-10 {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
 }
 .Services-col-2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 .team img {
-    height: 300px;
+    height: 420px;
     padding-bottom: 10px;
 }
 .team {
@@ -351,10 +382,14 @@ left: -20px;
     color:#ffffff36;
 }
 #pricing {
-    background:#1b2141;
+    background:#1C2136;
     width: 100%;
     padding-top: 30px;
     height: 850px;
+    background-image: url(../img/shape-12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #pricing img {
     padding-bottom: 30px;
@@ -364,7 +399,7 @@ left: -20px;
     color: #fff;
 }
 .price-title h3 {
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 10px;
 }
 .price-title p {
@@ -411,7 +446,8 @@ left: -20px;
 }
 .price-list {
     border: none;
-    padding: 80px 110px;
+    padding: 1
+100px 110px;
     color: #fff;
     text-align: center;
     border-radius: 20px;
@@ -419,16 +455,23 @@ left: -20px;
     z-index:1;
 
 }
-.price-list button {
-    padding: 8px 15px;
-    background: lightblue;
+.pink {
+    padding: 10px 15px;
+    background: lightpink;
     border-radius: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: transparent;
     
 }
+.Blue {
+    padding: 10px 15px;
+    background: lightblue;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: transparent;
+}
 .price-list h3 {
-    font-size: 23px;
+    font-size: 30px;
     padding-bottom: 10px;
 }
 .price-list h2 {
@@ -522,7 +565,7 @@ left: -20px;
     padding: 20px 20px;
     display: grid;
     grid-template-columns: 30% 65% 5%;
-    background: #252c4988;
+    background: #1C2136;
     align-items: center;
     position: relative;
 }
@@ -573,10 +616,11 @@ left: -20px;
 .blog-background {
     background-image: url(../img/shape-16.png);
     height: 300px;
-    background-color: #2c2d474d;
-
+    background-color: #1C2136;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.blog-img 
 .blog-head {
     display: flex;
     flex-direction: column;
@@ -689,9 +733,9 @@ left: -20px;
     display: flex;
     flex-direction: column;
     background-color: #1b214198;
-    background-image: url(../img/shape-12.svg);
+    background-image: url(../img/shape-12.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 800px;
     position: relative;
     
@@ -730,7 +774,7 @@ color: #fff;
     position: relative;
     border-radius: 20px;
     background-color: #111c52;
-    height: 400px;
+    height: 450px;
 }
 .ctop{
     position: absolute;
@@ -747,6 +791,17 @@ color: #fff;
     flex-direction: column;
     justify-content: space-evenly;
 
+}
+.contact-support ul li {
+    padding: 10px 0;
+}
+.contact-support ul li h4 {
+    font-size: 26px;
+}
+.contact-support ul li p {
+    padding-left: 5px;
+    font-size: 16px;
+    color: #ffffff6b;
 }
 hr {
     margin: 20px 0;
