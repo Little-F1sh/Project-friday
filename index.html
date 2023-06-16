@@ -5,262 +5,345 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Project-base</title>
 </head>
 <body>
-    <!-- Home -->
-    <section id="#">
-        <header>
+    <!-- Home/navbar -->
+    <section id="home">
+        <header class="sticky">
             <div class="container">
-                <div class=" header-flex">
-                    <!-- logo -->
-                    <div class="logo">
-                        <img src="./img/logo.png">
-                        <p>Base</p>
-                    </div>
-                    <!-- navbar -->
-                    <nav class="nav">
-                        <ul class="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <!-- buttons -->
-                    <div class="sign-in-btn">
-                        <img src="./img/icon-moon.svg">
-                        <a href="#">Sign In</a>
-                        <button><a href="#">Sign Up</a></button>
-                    </div>
-                </div>
-                <!-- banner -->
-                <div class="banner">
-
-                    <div class="banner-text">
-                        <h2>We Specialize In UX/UI Web Development, Digital Marketing</h2>
-                        <p>Make Modern And Beautiful Website With Us In Suitable Price And Fast Delivery. We Provide Long Time Support And Response For Every Problems. Also It Will Be Mobile Friendly Or Any Devices. Using New Generation UI And UX. So Don't Loss Your Time To Check Other. Just Trust Us And Try Your Luck.</p>
-                        <div class="banner-btn">
-                            <div class="btn-b">
-                            <button><a href="#">Get Started Now</a></button>
-                            </div>
-                            <div class="text-con">
-                            <p>Call Us: (01230)-12345
-                               <span> For Support Or Concern</span></p>
-                            </div>
-
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid"> 
+                        <!-- logo -->
+                        <a href="#" class="navbar-brand">
+                            <img src="./img/logo-dark.svg">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- navbar -->
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                                <li class="nav-item ">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link text-white" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Services</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pricing
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider text-white"></li>
+                                    <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Contact</a>
+                                </li>
+                            </ul>
+                
+                            <div class="Log-btn ms-4 d-flex justify-content-center">
+                            <i class="fa-sharp fa-solid fa-moon fw-bold fs-5 text-white pe-2"></i>
+                            <a class="singIn-btn" href="#">Sing In</a>
+                            <a class="singUp-btn" href="#">Sing Up</a>
+                            <i class="fa-solid fa-bars" id="menu-icon"></i>
+                            </div>   
                         </div>
                     </div>
-
-                    <div class="banner-img">
-                        <img src="./img/hh.png" alt="">
-                    </div>
-
-                </div>
+                </nav>
             </div>
         </header>
+    </section>
+    <!-- banner -->
+    <section id="banner" class="banner"> 
+
+        <div class="container">
+
+            <div class="row m-0 p-0">
+
+                <div class="col-12 col-sm-6 col-lg-6 py-5 mt-5 text-white">
+                    <img  src="./img/hh.png" alt="">
+                    <h2 class=" fs-2 py-2 fw-semibold">We Specialize In UX/UI Web Development, Digital Marketing</h2>
+                    <p class="fw-medium fs-6 text-secondary">Make Modern And Beautiful Website With Us In Suitable Price And Fast Delivery. We Provide Long Time Support And Response For Every Problems. Also It Will Be Mobile Friendly Or Any Devices. Using New Generation UI And UX. So Don't Loss Your Time To Check Other. Just Trust Us And Try Your Luck.</p>
+                    <div class="row mt-5">
+                        <div class="col-12 col-md-12 col-sm-12 col-lg-6 my-3">
+                        <button class="btn my-button">Get Started Now</button>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 my-3">
+                            <p class="fs-6 fw-bold p-0 m-0">Call Us: (01230)-12345</p>
+                            <p class="fw-semibold text-secondary p-0 m-0">For Support or Concern</p>
+                        </div>
+
+                    </div>
+            
+                </div>
+
+            </div>
+
+        </div>
 
     </section>
     <!-- Features -->
     <section id="Features">
-
         <div class="container">
-            <div class="features-col-1">
-                <div class="Support">
-                    <div>
-                        <a href="#"><i class="fa-solid fa-phone"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <h2>24/7 Support</h2>
-                        <p>Feel Free To Chat With US.We Are Support You </p>
-                    </div>
+
+            <div class="row text-white animate__animated animate__fadeInUp">
+        
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center my-5 ">
+        
+                <div class="shape text-center rounded-circle bg-gradient"><i class="fa-solid fa-phone fs-2 text-white w-100 p-4"></i></div>
+                <div class="support-des ms-4">
+                    <h4 class="fw-bold fs-5 pb-1">24/7 Support</h4>
+                    <p class="p-0 m-0 text-secondary">Feel free to chat with us.</p>
+                    <p class="p-0 m-0 text-secondary">we are always support you.</p>
                 </div>
-                <div class="Take-Ownership">
-                    <div>
-                        <a href="#"><i class="fa-solid fa-earth-americas"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <h2>Take Ownership </h2>
-                        <p>Take A Membership It Will Help Grow Your Rank</p>
-                    </div>
+
+              </div>
+        
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center my-5">
+        
+                <div class="shape text-center
+                rounded-circle bg-gradient"><i class="fa-regular fa-handshake text-white w-100 p-4 fs-2"></i></div>
+                <div class="support-des ms-4">
+                    <h4 class="fw-bold fs-5 pb-1">Take Ownership</h4>
+                    <p class="p-0 m-0 text-secondary">Take a Membership</p>
+                    <p class="p-0 m-0 text-secondary">It will help grow your rank.</p>
                 </div>
-                <div class="Team-work">
-                    <div>
-                    <a href="#">
-                        <i class="fa-solid fa-user-plus"></i>
-                    </a>
-                    </div>
-                    <div>
-                    <h2>Team Work</h2>
-                    <p>You Can Make Own Team, Team Work Always Better</p>
-                    </div>
+
+              </div>
+        
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex align-items-center my-5">
+        
+                <div class="feature-icon-3 shape text-center rounded-circle bg-gradient"><i class="fa-solid fa-user-plus fs-2 text-white w-100 p-4"></i></div>
+                <div class="support-des ms-4 ">
+                    <h4 class="fw-bold fs-5 pb-1">Team Work</h4>
+            
+                    <p class="p-0 m-0 text-secondary">You can make own team</p>
+                    <p class="p-0 m-0 text-secondary">Team work always better</p>
                 </div>
-                
+
+              </div>
+
             </div>
-            <div class="features-col-2">
-                <div class="col-2-img">
-                    <div class="col-2-grid-1">
-                        <img class="noodules-1" src="./img/nodules.png" alt="">
-                        <img src="./img/about-01.png" alt="">
-                        <img src="./img/about-02.png" alt="">
+            
+            <div class="row pt-5 text-white">
+      
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex align-items-center">
+          
+                  <div class="row">
+          
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <img class="m-2 w-100" src="img/about-01.png" alt="">
+                        <img class="m-2 w-100" src="img/about-02.png" alt="">
                     </div>
-                    <div class="col-2-grid-2">
-                        <img src="./img/shape-06.svg" alt="">
-                        <img src="./img/about-03.png" alt="">
-                        <img src="./img/shape-07.svg" alt="">
+            
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          
+                        <img class="m-2" src="img/shape-06.svg" alt="">
+                        <img class="m-2 w-100" src="img/about-03.png" alt="">
+                        <img class="m-2" src="img/shape-07.svg" alt="">
+          
                     </div>
-                   
+          
+                  </div>
+          
                 </div>
-                <div class="col-2-text">
-                    <h5>Why Choose Me</h5>
-                    <h2>We Make Our Customers Happy By Giving Best Services.</h2>
-                    <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Own Section
-                        Trust Us.</p>
-                    <button><a href="#">Learn More >></a></button>
-            </div>
-        </div>
+          
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 features-text text-capitalize animate__animated animate__fadeInUp">
+          
+                    <h6 class="fw-semibold fs-5 text-primary">Why Choose Us</h6>
+                    <h2 class="fs-2 fw-bold py-3 ">We make our customers happy by giving best services.</h2>
+                    <p class="fw-semibold text-secondary fs-6">It is a long fstablished fact that a reader will be distracted by the readable content of a page ehwn looking at its layout. the point of using own section.</p>
+                    <button class="my-button">Learn More >></button>
+                  
+                </div>
+          
+              </div>
+
+          </div>
+
     </section>
     <!-- Services -->
-    <section id="Services">
-        <div class="s-back">
+    <section id="Services" class=" service-header py-5">
+
         <div class="container">
+
+            <div class="row text-capitalize">
             
-                <div class="service-header">
-                    <div>
-                        <img class="shape-10" src="./img/shape-10.svg" alt="">
-                    </div>
-                    <div class="s-header">
-                        <h2>Meet With Our creative dedicated Team.</h2>
-                        <p>Here is our team who will support your 24/7 with instantly. They expert is our team so don't worry. just trust us.</p>
-                    </div>
-                    <div>
-                        <img class="shape-11" src="./img/shape-11.svg" alt="">
-                    </div>
-                    
+                <div class="col-2">
+                    <img src="img/shape-10.svg" alt="">
+            
                 </div>
-        </div>
-        </div>
-        <div class="container">
-            <div class="Services-col-2">
-                <div class="team 1">
-                    <img src="./img/team-01.png" alt="">
-                    <h6>Olivia Andrium</h6>
-                    <p>Product Manager</p>
+            
+                <div class="col-9 back-item-1 text-white text-center py-5 animate__animated animate__fadeInUp animate__slow">
+            
+                <h2 class="fw-semibold">Meet With Our creative dedicated Team.</h2>
+                    <p>Here is our team who will support your 24/7 with instantly. They expert is our team so don't worry. just trust us.</p>
+
                 </div>
-                <div class="team 2">
-                    <img src="./img/team-02.png" alt="">
-                    <h6>Jemes Kamerun</h6>
-                    <p>UX/UI Designer</p>
+            
+                <div class="col-1 py-5">
+                    <img src="img/shape-11.svg" alt="">
                 </div>
-                <div class="team 3">
-                    <img src="./img/team-03.png" alt="">
-                    <h6>Avi Pestarica</h6>
-                    <p>Web Designer</p>
-                </div>
+            
             </div>
-            <div class="col-Services-heading col-container">
-                <h2>We Offer The Best Quality Service For You.</h2>
-                <P>Take Our Services And Try Your Luck. You Won't Be Loss. We Providing Best Quality Service With Advanced Experience And Modern UI. Explore Our Services.</P>
+
+            <div class="row text-white text-capitalize pt-5">
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center mb-3">
+                  <div class="test-box">
+                    <img src="img/team-01.png" class="w-100 " alt="...">
+          
+                    <div class="fade-up">
+                      <div class="text">
+          
+                        <div class=" d-flex social-icons justify-content-center justify-content-lg-start pt-2">
+            
+                          <a class="mx-1 facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a class="mx-1 whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                          <a class="mx-1 twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a class="mx-1 linkdin" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+          
+          
+                      </div>
+                    </div>
+                  </div>
+          
+                  <h3 class="fw-semibold mt-4">Olivia Andrium</h3>
+                  <p>Product Manager</p>
+          
+                </div>
+          
+          
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center mb-3">
+                  <div class="test-box">
+                    <img src="img/team-02.png" class="w-100 " alt="...">
+          
+                    <div class="fade-up">
+                      <div class="text">
+          
+          
+                        <div class=" d-flex social-icons justify-content-center justify-content-lg-start pt-2">
+            
+                            <a class="mx-1 facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="mx-1 whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a class="mx-1 twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="mx-1 linkdin" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+          
+          
+                      </div>
+                    </div>
+                  </div>
+          
+                  <h3 class="fw-semibold mt-4">Olivia Andrium</h3>
+                  <p>Product Manager</p>
+          
+                </div>
+          
+          
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center mb-3">
+                  <div class="test-box">
+                    <img src="img/team-03.png" class="w-100 " alt="...">
+          
+                    <div class="fade-up">
+                      <div class="text">
+          
+          
+                        <div class=" d-flex social-icons justify-content-center justify-content-lg-start pt-2">
+            
+                            <a class="mx-1 facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="mx-1 whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a class="mx-1 twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="mx-1 linkdin" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+          
+                      </div>
+                    </div>
+                  </div>
+          
+                  <h3 class="fw-semibold mt-4">Olivia Andrium</h3>
+                  <p>Product Manager</p>
+          
+                </div>
 
             </div>
-            <div class="col-card">
-                    <div class="Service-box">
-                        <img src="./img/icon-04.svg" alt="">
-                        <h4>Crafted For Startups</h4>
-                        <p>Craft Info: You Will Find Over 1400 Free Craft Project For All Seasons And Major Holidays Or Celebrations Of The Year</p>
-                    </div>
-                    <div class="Service-box">
-                        <img src="./img/icon-05.svg" alt="">
-                        <h4>High Quality Design</h4>
-                        <p>When Looking Into The Product Design And Innovation Field, We Usually See An Overly Saturated And Overwhelming Market That Is Full Of Different Products.</p>
-                    </div>
-                    <div class="Service-box">
-                        <img src="./img/icon-06.svg" alt="">
-                        <h4>All Essential Sections</h4>
-                        <p>A projecct Description Is A High-Level Overview Of Why You're Doing A Project. The Document Explanins A Project's Objectives And Its Essemtial Qualities. </p>
-                    </div>
-                </div>
-                <br>
-                <div class="col-card">
-                    <div class="Service-box">
-                        <img src="./img/icon-07.svg" alt="">
-                        <h4>Speed Optimizeation</h4>
-                        <p>Optimaization Aims At Adiing Or Removing Content From Your Text, To Better Match Search Engine Expectations. Text Optimizer Is Simple, Fast, And Efficient.</p>
-                    </div>
-                    
-                    <div class="Service-box">
-                        <img src="./img/icon-05.svg" alt="">
-                        <h4>Crafted For Startups</h4>
-                        <p>Craft Info: You Will Find Over 1400 Free Craft Project For All Seasons And Major Holidays Or Celebrations Of The Year</p>
-                    </div>
-                    <div class="Service-box">
-                        <img src="./img/icon-04.svg" alt="">
-                        <h4>Fully Customizable</h4>
-                        <p>Craft Info: You Will Find Over 1400 Free Craft Project For All Seasons And Major Holidays Or Celebrations Of The Year</p>
-                        
-                    </div>
-            </div>
-                
 
-            </div>
-        </div>    
+            <div class="container text-white text-capitalize">
+
+                <div class="content-top text-center p-5 justify-content-center row">
+            
+                  <h3 class="p-2 fw-bold">We offer the best quality service for you</h3>
+                  <p class="w-75 fs-6 mt-2 fw-semibold text-secondary">Take our service and try your luck. you won't be loss. We providing best quality service with advanced experienace and moern UI. Explore Our Services.</p>
+            
+                </div>
+
+                <div class="row animate__animated animate__fadeInUp animate__slow">
+            
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-4 ad-hover mb-3">
+                    <img src="img/icon-04.svg" alt="">
+                    <h4 class="py-2 fw-semibold">Created for startups</h4>
+                    <p class="text-secondary">Craft info: You will find over 1400 free credit card projects for all seasons and major holidays o celebrations of the year.</p>
+            
+                  </div>
+  
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-4 ad-hover mb-3">
+                    <img src="img/icon-05.svg" alt="">
+                    <h4 class="py-2 fw-semibold">High Quality Designs</h4>
+                    <p class="text-secondary">Whwn looking into the product design and innovation field. We usually see an overlay saturated and overwhelming market that is full of different products.</p>
+            
+                  </div>
+
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-4 ad-hover mb-3">
+                    <img src="img/icon-06.svg" alt="">
+                    <h4 class="py-2 fw-semibold">All essential sections</h4>
+                    <p class="text-secondary">A project description is a high level overview of why you are doing a project. The document explains a project's objectives and it's essentials qualities.</p>
+            
+                  </div>
+  
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-4 ad-hover mb-3">
+                    <img src="img/icon-07.svg" alt="">
+                    <h4 class="py-2 fw-semibold">Speed Optimization</h4>
+                    <p class="text-secondary">Optimization aims adding or removing content fromn your text. To better match search engine expectations text optimizer is simple fast and efficient.</p>
+            
+                  </div>
+
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-4 ad-hover mb-3">
+                    <img src="img/icon-04.svg" alt="">
+                    <h4 class="py-2 fw-semibold">Fully customizable</h4>
+                    <p class="text-secondary">Customize definition to modify or build according to individual or professional specifications or preferencer. To customize an automoblie.</p>
+            
+                  </div>
+
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-4 ad-hover mb-3">
+                    <img src="img/icon-05.svg" alt="">
+                    <h4 class="py-2 fw-semibold">Regular Update</h4>
+                    <p class="text-secondary">If you update something. You make it more nodern. usually by adding new parts to it or giving new information.</p>
+            
+                  </div>
+
+                </div>
+
+              </div>
+
+        </div>
+
     </section>
     <!-- pricing -->
-    <section id="pricing">
-        <div class="container ">
-            <div class="bill-div">
-                <img src="./img/shape-06.svg" alt="">
-                <div class="price-title">
-                    <h3>We Offer Great Affordale Basic Prices.</h3>
-                    <p>It Is Long Time Service .With Long Time Support. Choose Basic Offer For Suitable Price For You.</p>
-                    <div class="bill"> <h5>Bill Monthly</h5> <button><i class="fa-solid fa-toggle-off"></i></button> <h5>Bill Annually</h5></div>
-                    
-                </div>
-                <img class="bill-noodles" src="./img/shape-03.svg" alt="">
-            </div>
-            <div class="price-card">
-                <div class="price-list">
-                    <h3>Starter</h3>
-                    <h2>$149 <span>/per Months</span></h2>
-                    <p>No Credit Card Required</p>
-                    <button class="pink">Try For Free</button>
-                    <p>400Gb Storage</p>
-                    <p>Ultimited Phots & Videos</p>
-                    <p>Exclusive Support</p>
-                    <h3>7-days Free Trial</h3>
-                </div>
-                <div class="price-list">
-                    <h3>Starter</h3>
-                    <h2>$149 <span>/per Months</span></h2>
-                    <p>No Credit Card Required</p>
-                    <button class="Blue">Try For Free</button>
-                    <p>400Gb Storage</p>
-                    <p>Ultimited Phots & Videos</p>
-                    <p>Exclusive Support</p>
-                    <h3>7-days Free Trial</h3>
-                </div>
-                <div class="price-list">
-                    <h3>Starter</h3>
-                    <h2>$149 <span>/per Months</span></h2>
-                    <p>No Credit Card Required</p>
-                    <button class="pink">Try For Free</button>
-                    <p>400Gb Storage</p>
-                    <p>Ultimited Phots & Videos</p>
-                    <p>Exclusive Support</p>
-                    <h3>7-days Free Trial</h3>
-                </div>
-                <img class="shape-07" src="./img/shape-07.svg" alt="">
-            </div>
-              
-        </div>
-    </section>
+    
     <!-- more price -->
-    <section id="more-price">
+    <!-- <section id="more-price">
         <div class="container">
             <div class="more-price">
                 <h2>We Offer Great Affordable Premium Prices.</h2>
@@ -276,20 +359,20 @@
             </div>
             <div class="price-blog">
                 <div class="price-blog-img">
-                    <img src="./img/R.jpg" alt="">
-                    <img src="./img/R.jpg" alt="">
-                    <img src="./img/R.jpg" alt="">
+                    <img src="./img/blog-01.png" alt="">
+                    <img src="./img/blog-02.png" alt="">
+                    <img src="./img/blog-03.png" alt="">
                 </div>
                 <div class="price-blog-img">
-                    <img src="./img/R.jpg" alt="">
-                    <img src="./img/R.jpg" alt="">
-                    <img src="./img/R.jpg" alt="">
+                    <img src="./img/blog-04.png" alt="">
+                    <img src="./img/blog-05.png" alt="">
+                    <img src="./img/digit.jpg" alt="">
 
                 </div>
                 <div class="price-blog-img">
+                    <img src="./img/Ecommerce-DG.jpg" alt="">
                     <img src="./img/R.jpg" alt="">
-                    <img src="./img/R.jpg" alt="">
-                    <img src="./img/R.jpg" alt="">
+                    <img src="./img/project-02.png" alt="">
                 </div>
             </div>
             <div class="price-fotter-container">
@@ -324,9 +407,9 @@
             
         </div>
 
-    </section>
+    </section> -->
     <!-- blog -->
-    <section id="blog">
+    <!-- <section id="blog">
         <div class="blog-background">
             <div class="container blog-head">
                 <div class="blog-head-img">
@@ -340,16 +423,16 @@
                             <p>Global Brand</p>
                         </li>
                         <li>
-                            <h2>785</h2>
-                            <p>Global Brand</p>
+                            <h2>533</h2>
+                            <p>Happy Clients</p>
                         </li>
                         <li>
-                            <h2>785</h2>
-                            <p>Global Brand</p>
+                            <h2>865</h2>
+                            <p>Viewing Award</p>
                         </li>
                         <li>
-                            <h2>785</h2>
-                            <p>Global Brand</p>
+                            <h2>346</h2>
+                            <p>World ranking</p>
                         </li>
                         
                     </ul>
@@ -432,64 +515,95 @@
 
 
 
-    </section>
+    </section> -->
     <!-- contact -->
-    <section id="contact">
-        <div class="container">
+    <!-- <section id="contact">
+        
             <div class="connected">
-                <div>
-                <img class="Up" src="./img/shape-06.svg" alt="">
-                </div>
-                <div class="Connected-text">
-                    <h2>Let's Stay Connected</h2>
-                    <p> Feel Free To Send Us Your Feedback Or Suggestion. And Ask What You Need Or Subscribe Us For Get Update</p>
-                </div>
-                <div>
-                <img class="down" src="./img/shape-03.svg" alt="">
-                </div>
-                <div id="form">
-                    <div class="contact-support">
-                        <img class="ctop" src="./img/shape-03.svg" alt="">
-                        <ul>
-                            <li>
-                                <h4>Email Address</h4>
-                                <p>Support@Base.com</p>
-                            </li>
-                            <li>
-                                <h4>Office location</h4>
-                                <p>74/A Green Road, California</p>
-                            </li>
-                            <li>
-                                <h4>Phone Number</h4>
-                                <p>+1(1234)-123456</p>
-                            </li>
-                            <li>
-                                <h4>Skype</h4>
-                                <p>Base.Skype@Skype</p>
-                            </li>
-                        </ul>
-                        <hr>
-                        <h2>Social Media</h2>
-                        <div>
-                           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                           <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                           <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <div class="container">
+                    <div>
+                    <img class="Up" src="./img/shape-06.svg" alt="">
+                    </div>
+                    <div class="Connected-text">
+                        <h2>Let's Stay Connected</h2>
+                        <p> Feel Free To Send Us Your Feedback Or Suggestion. And Ask What You Need Or Subscribe Us For Get Update</p>
+                    </div>
+                    <div>
+                    <img class="down" src="./img/shape-03.svg" alt="">
+                    </div>
+                    <div id="form">
+                        <div class="contact-support">
+                            <img class="ctop" src="./img/shape-03.svg" alt="">
+                            <ul>
+                                <li>
+                                    <h4>Email Address</h4>
+                                    <p>Support@Base.com</p>
+                                </li>
+                                <li>
+                                    <h4>Office location</h4>
+                                    <p>74/A Green Road, California</p>
+                                </li>
+                                <li>
+                                    <h4>Phone Number</h4>
+                                    <p>+1(1234)-123456</p>
+                                </li>
+                                <li>
+                                    <h4>Skype</h4>
+                                    <p>Base.Skype@Skype</p>
+                                </li>
+                            </ul>
+                            <hr>
+                            <h2>Social Media</h2>
+                            <div class="sup-social">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                            <img class="cbottom" src="./img/shape-14.svg" alt="">
                         </div>
-                        <img class="cbottom" src="./img/shape-14.svg" alt="">
+                        <div class="container">
+                            <div class="contact-form">
+                                <form action="">
+                                    <div class="form-top">
+                                        <div class="User-name">
+                                            <label for="name" >Name</label>
+                                            <input type="text" id="name" placeholder="Your Name">
+
+                                        </div>
+                                        <div class="User-email">
+                                            <label for="email">Email</label>
+                                            <input type="email" id="email" placeholder="example@gmail.com">
+                                        </div>
+                                    </div>
+                                    <div class="form-mid">
+                                        <div class="user-phone">
+                                            <label for="phone">Phone Number</label>
+                                            <input type="number" id="phone" placeholder="+1 (1234)-123456">
+                                        </div>
+                                        <div class="user-subject">
+                                            <label for="subject">Subject</label>
+                                            <input type="text" id="subject" placeholder="Type Your Subject">
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="form-bottom">
+                                        <div class="massege-area">
+                                            <label for="massege">Massege</label>
+                                            <textarea name="massege" id="massege" cols="30" rows="10" placeholder="massege"></textarea>
+                                        </div>
+                                       <div class="send-button">
+                                        <button type="submit">Send Massege</button>
+                                       </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+        
                     </div>
-    
-                    <div class="contact-form">
-                        <form action="">
-                            hello world
-                        </form>
-                    </div>
-    
                 </div>
             </div>
-            
-        </div>
-    </section>
+    </section> -->
 
 
     
