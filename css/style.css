@@ -311,11 +311,19 @@ position: relative;
 {
     padding: 8px;
     float: left;
-    width: 33.33%;
-    /* display: none; */
+    width: 33%;
+    border-radius: 10px;
 }
-
-
+.box 
+{
+    display: block;
+}
+.content img{
+    border-radius: 10px;
+}
+.slider-box {
+    background-color: #ffffff09;
+}
 @media only screen and (max-width: 480px)  {
     #banner img {
         width: 300px;
