@@ -89,14 +89,36 @@ position: relative;
     right: 0;
     left: 57%;
 }
+@media only screen and (max-width: 480px)  {
+    #banner img {
+        width: 300px;
+        top: -90px;
+        right: 0;
+        left: 125px;
 
+    }
+    .service-header {
+        position: relative;
+    }
+    .shape-11 {
+        position: absolute;
+        bottom: 0;
+        left: 345px;
+        right: 0;
+    }
+}
+/* Features */
 #Features {
     padding: 120px 0 ;
+}
+.shape {
+    cursor: pointer;
 }
 .shape i {
     width: 80px !important;
     height: 80px;
 }
+
 .features-text {
     margin: auto 0;
 }
@@ -139,6 +161,11 @@ position: relative;
     text-align: center;
     font-weight: bold;
 }
+.test-box 
+{
+    position: relative;
+    cursor: pointer;
+}
 .facebook {
     background: #4E6BFF;
 }
@@ -165,11 +192,7 @@ position: relative;
 .linkdin i {
     color: #fff;
 }
-.test-box 
-{
-    position: relative;
-    cursor: pointer;
-}
+
 .social-icons a
 {
     width: 30px;
@@ -199,6 +222,13 @@ position: relative;
 {
     border-radius: 10px !important;
 }
-#Services {
-    
+
+.service-card {
+    border: 1px solid transparent;
+    transition: all 0.3s;
+}
+.service-card:hover {
+    box-shadow: rgba(87, 86, 86, 0.12) 0px 1px 3px, rgba(99, 97, 97, 0.24) 0px 1px 2px;
+    border-radius: 10px;
+    cursor: pointer;
 }
