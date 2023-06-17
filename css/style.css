@@ -12,8 +12,35 @@
     border-radius: 50px;
     margin-top: 6px;
 }
+
 .my-button:hover {
     border: 1px solid #4E6BFF;
+    background: transparent;
+}
+#my-button-2 {
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 15px;
+    border: 1px solid transparent;
+    background-color: rgb(16, 53, 100);
+    border-radius: 50px;
+    margin-top: 6px;
+}
+#my-button-2:hover {
+    border: 1px solid rgb(16, 53, 100);
+    background: transparent;
+}
+#my-button-3 {
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 15px;
+    border: 1px solid transparent;
+    background-color: rgb(133, 56, 67);
+    border-radius: 50px;
+    margin-top: 6px;
+}
+#my-button-3:hover {
+    border: 1px solid rgb(133, 56, 67);
     background: transparent;
 }
 
@@ -89,24 +116,7 @@ position: relative;
     right: 0;
     left: 57%;
 }
-@media only screen and (max-width: 480px)  {
-    #banner img {
-        width: 300px;
-        top: -90px;
-        right: 0;
-        left: 125px;
 
-    }
-    .service-header {
-        position: relative;
-    }
-    .shape-11 {
-        position: absolute;
-        bottom: 0;
-        left: 345px;
-        right: 0;
-    }
-}
 /* Features */
 #Features {
     padding: 120px 0 ;
@@ -118,16 +128,27 @@ position: relative;
     width: 80px !important;
     height: 80px;
 }
-
+.features-img {
+    position: relative;
+}
+.nodules {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    left: 0;
+}
 .features-text {
     margin: auto 0;
 }
+
+/* service */
 .service-header {
     background-image: url(../img/shape-08.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+    position: relative;
 }
 .fade-up 
 {
@@ -231,4 +252,64 @@ position: relative;
     box-shadow: rgba(87, 86, 86, 0.12) 0px 1px 3px, rgba(99, 97, 97, 0.24) 0px 1px 2px;
     border-radius: 10px;
     cursor: pointer;
+}
+/* pricing */
+#pricing {
+    margin-top: 1300px;
+}
+.pricing-section {
+    background-image: url(../img/shape-12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.pricing-header {
+    position: relative;
+}
+.shape-02 {
+    width: 120px;
+    position: absolute;
+    top: 140px;
+    left: 850px;
+    right: 0;
+}
+.price-card {
+    background: #10121b69;
+    border-radius: 10px !important;
+    padding: 10px 0;
+    /* border: 1px solid #918c8c; */
+    margin-top: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 480px)  {
+    #banner img {
+        width: 300px;
+        top: -90px;
+        right: 0;
+        left: 125px;
+
+    }
+    .service-header {
+        position: relative;
+    }
+    .shape-11 {
+        position: absolute;
+        bottom: 0;
+        left: 345px;
+        right: 0;
+    }
+    #pricing {
+        margin-top: 3600px;
+    }
+    .shape-02 {
+        width: 120px;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    right: 0;
+    }
 }
