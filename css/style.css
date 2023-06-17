@@ -69,8 +69,7 @@ header {
 .active {
     color: #4E6BFF !important;
 }
-.Log-btn
-{
+.Log-btn {
     display: flex;
     align-items: center;
     float: right;
@@ -89,10 +88,10 @@ header {
     transition: all ease .30s;
 }
 
-.singIn-btn:hover{
+.singIn-btn:hover {
     border: 2px solid #fff;
 }
-.singUp-btn{
+.singUp-btn {
     font-size: 17px;
     color: #fff;
     font-weight: 500;
@@ -158,9 +157,10 @@ position: relative;
     background-size: cover;
     height: 300px;
     position: relative;
+    border: 1px solid #ffffff1a;;
+    ;
 }
-.fade-up 
-{
+.fade-up {
     position: absolute;
     left: 0;
     right: 0;
@@ -170,15 +170,11 @@ position: relative;
     width: 100%;
     height:0;
     transition: 0.5s ease;
-    border-bottom: 1px solid #4E6BFF;
-    border-left: 1px solid #4E6BFF;
 }
-.test-box:hover .fade-up 
-{
+.test-box:hover .fade-up {
     bottom: 0;
     height: 20%;
-    border-bottom: 1px solid #4E6BFF;
-    border-left: 2px solid #4E6BFF;
+
 }
 .text {
     font-size: 20px;
@@ -191,8 +187,7 @@ position: relative;
     text-align: center;
     font-weight: bold;
 }
-.test-box 
-{
+.test-box {
     position: relative;
     cursor: pointer;
 }
@@ -223,8 +218,7 @@ position: relative;
     color: #fff;
 }
 
-.social-icons a
-{
+.social-icons a {
     width: 30px;
     height: 30px;
     display: block;
@@ -240,16 +234,13 @@ position: relative;
 
 }
 
-
-.social-icons a:hover
-{
+.social-icons a:hover {
     border: 1px solid white;
     color: white;
 
 }
 
-.tabile-list
-{
+.tabile-list {
     border-radius: 10px !important;
 }
 
@@ -271,6 +262,7 @@ position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border: 1px solid #ffffff1a;
 
 }
 .pricing-header {
@@ -291,8 +283,7 @@ position: relative;
     margin-top: 30px;
 }
 /* more priceing */
-#price-container
-{
+#price-container {
     background-color: #ffffff38;
     border-radius: 50px;
     padding: 4px 12px;
@@ -302,28 +293,34 @@ position: relative;
     background-color: #4e6bff !important;
     color: white;
 }
-.my-button-4:active
-{
+.my-button-4:active {
     background-color: #4e6bff !important;
     color: white;
 } 
-.column 
-{
+.column {
     padding: 8px;
     float: left;
     width: 33%;
     border-radius: 10px;
 }
-.box 
-{
+.box {
     display: block;
 }
-.content img{
+.content img {
     border-radius: 10px;
 }
 .slider-box {
     background-color: #ffffff09;
 }
+/* achievement */
+.achievement {
+    background-image: url(../img/shape-16.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #ffffff1a;
+}
+
 @media only screen and (max-width: 480px)  {
     #banner img {
         width: 300px;
