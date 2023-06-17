@@ -43,6 +43,15 @@
     border: 1px solid rgb(133, 56, 67);
     background: transparent;
 }
+.my-button-4 {
+    border: 1px solid transparent;
+    outline: none;
+    padding: 8px 100px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #ffffff77;
+}
 
 body {
     font-family: sans-serif;
@@ -259,9 +268,9 @@ position: relative;
 }
 .pricing-section {
     background-image: url(../img/shape-12.png);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 }
 .pricing-header {
@@ -281,8 +290,30 @@ position: relative;
     /* border: 1px solid #918c8c; */
     margin-top: 30px;
 }
-
-
+/* more priceing */
+#price-container
+{
+    background-color: #ffffff38;
+    border-radius: 50px;
+    padding: 4px 12px;
+    text-align: start;
+}
+.my-button-4.active-priceing {
+    background-color: #4e6bff !important;
+    color: white;
+}
+.my-button-4:active
+{
+    background-color: #4e6bff !important;
+    color: white;
+} 
+.column 
+{
+    padding: 8px;
+    float: left;
+    width: 33.33%;
+    /* display: none; */
+}
 
 
 @media only screen and (max-width: 480px)  {
