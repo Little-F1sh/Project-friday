@@ -211,10 +211,10 @@ position: relative;
 .twitter i {
     color: #fff;
 }
-.linkdin {
+.linkedin {
     background: #0072b1;
 }
-.linkdin i {
+.linkedin i {
     color: #fff;
 }
 
@@ -263,7 +263,7 @@ position: relative;
     background-size: cover;
     background-position: center;
     border: 1px solid #ffffff1a;
-
+    
 }
 .pricing-header {
     position: relative;
@@ -320,6 +320,23 @@ position: relative;
     background-size: cover;
     border: 1px solid #ffffff1a;
 }
+/* contace */
+.contact-section {
+    background-image: url(../img/shape-12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ffffff1a;
+    
+}
+.contact-form {
+    background: #08060625;
+    border-radius: 10px;
+}
+
+
+
+
 
 @media only screen and (max-width: 480px)  {
     #banner img {
